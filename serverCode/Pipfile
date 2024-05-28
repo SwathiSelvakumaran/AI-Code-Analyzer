@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+gunicorn = "*"
+flask = "==3.0.3"
+transformers = "==4.40.1"
+scikit-learn = "==1.4.2"
+python-dotenv = "==1.0.1"
+
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
